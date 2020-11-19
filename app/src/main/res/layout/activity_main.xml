@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="162dp"
+        android:layout_height="47dp"
+        android:text="BIENVENIDOS"
+        android:textColor="#7B1FA2"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="369dp"
+        app:srcCompat="@drawable/captura_de_pantalla_2020_11_19_a_la_s__4_25_21_p__m_" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:text="Conjunto Residencial Hacienda el Rosal"
+        android:textColor="#FFA000"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="37dp"
+        android:text="INICIO"
+        android:textColor="#7B1FA2"
+        android:textColorHighlight="#FFFFFF" />
+</LinearLayout>
